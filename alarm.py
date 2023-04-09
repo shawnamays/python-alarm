@@ -6,7 +6,6 @@
 
 
 
-
 from playsound import playsound
 import time
 import tkinter as tk
@@ -19,14 +18,18 @@ import time
 
 window = tk.Tk()
 window.title("Study Timer")
-# When you run the code with this, a little window pops up on the screen, how cool! We still need to further customize it though.
+# When you run the code with this,
+# a little window pops up on the screen, how cool! 
+# We still need to further customize it though.
 
 
 
 # Now lets create a label to DISPLAY THE TIME REMAINING
 time_label = tk.Label(window, text="00:00")
 time_label.pack()
-# When you run the code with this, the numbers pop up in the window, how cool! There's more to be done though....
+# When you run the code with this, 
+# the numbers pop up in the window, how cool! 
+# There's more to be done though....
 
 # We need to add a BUTTON to our window, so a user can click on it to start their countdown.
 start_button = tk.Button(window, text="Start Study Timer")
